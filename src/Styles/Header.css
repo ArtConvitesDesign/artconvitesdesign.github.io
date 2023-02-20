@@ -16,5 +16,9 @@
     justify-content: center;
     align-items: center;
     }
+    .logo-header
+    {
+        display: flex;
+    }
 }
 

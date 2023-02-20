@@ -5,12 +5,25 @@
      padding: 10px; 
 }
 
+.contatos-convite{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid rgb(199, 196, 196);
+    height: 80vh;
+}
+
+
 @media screen and (max-width: 870px) {
     #content-convite {
         display: block;
         flex-direction: column;
     }
-
+    .contatos-convite
+    {
+        border: none;
+    }
     #img-convite {
         width: 100%;
         padding: 0;

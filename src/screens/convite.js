@@ -56,7 +56,7 @@ export const Convite = () => {
                         </div>
                     </div>
                 </div>
-                <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', border: '1px solid rgb(199 196 196)', height: '80vh' }}>
+                <div className="contatos-convite">
                     <div>
                         <label style={{ opacity: 0.7 }}>Contatos:</label>
                     </div>

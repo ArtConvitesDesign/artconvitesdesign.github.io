@@ -9,7 +9,7 @@ export const Header = (props) => {
         <div className="header-container">
             <Container>
                 <div style={{ display: 'flex', justifyContent: 'space-between', padding: '5px' }}>
-                    <div>
+                    <div className="logo-header">
                         <img className="img-header" src={Logo} />
                         <a href="/" style={{ textDecoration: 'none', color: '#fff', fontWeight: 'bold' }}>ArtConvites Design</a>
                     </div>
