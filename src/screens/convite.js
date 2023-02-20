@@ -32,7 +32,7 @@ export const Convite = () => {
 
     return (
         <>
-            <div style={{ display: 'flex' }} id='content-convite'>
+            <div style={{ display: 'flex',justifyContent:'center',alignItems:'center' }} id='content-convite'>
                 <div style={{ width: '80vw', height: '80vh' }}>
                     <div>
                         <a href="#" onClick={() => window.history.back()}><AiFillBackward size={30} /></a>
