@@ -60,7 +60,7 @@ export const Convite = () => {
                     <div>
                         <label style={{ opacity: 0.7 }}>Contatos:</label>
                     </div>
-                    <div>
+                    <div className="img-logo-convite">
                         <img style={{ width: '18rem', height: '100%' }} src={Logo} />
                     </div>
                     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', padding: '10px' }}>
