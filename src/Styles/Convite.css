@@ -1,0 +1,18 @@
+#img-convite
+{
+    width: 50%;
+     height: 400px; 
+     padding: 10px; 
+}
+
+@media screen and (max-width: 870px) {
+    #content-convite {
+        display: block;
+        flex-direction: column;
+    }
+
+    #img-convite {
+        width: 100%;
+        padding: 0;
+    }
+}
