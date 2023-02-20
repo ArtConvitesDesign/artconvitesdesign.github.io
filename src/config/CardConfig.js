@@ -66,20 +66,11 @@ const convites = [
         , Categoria: 4
     },
     {
-        Titulo: 'Convite de chá de bebê/Revelação',
-        Texto: 'R$ 2,39 Un.',
-        Img: { Charevelacao1 },
-        NomeImg: 'Charevelacao1',
-        Id: 6,
-        Descricao: 'Convite de chá de bebê/Revelação. Entregamos em todo território nacional. Pode ser personalizado. Pedido mínimo: 10 Un'
-        , Categoria: 4
-    },
-    {
         Titulo: 'Convite de casamento físico',
         Texto: 'R$ 2,49 Un.',
         Img: { Casamento5 },
         NomeImg: 'Casamento5',
-        Id: 7,
+        Id: 6,
         Descricao: 'Convite de casamento físico. Entregamos em todo território nacional. Pode ser personalizado.  Vem com envelope. Pedido mínimo: 10 Un'
         , Categoria: 1
     },
@@ -88,7 +79,7 @@ const convites = [
         Texto: 'R$ 2,49 Un.',
         Img: { Casamento4 },
         NomeImg: 'Casamento4',
-        Id: 8,
+        Id: 7,
         Descricao: 'Convite de casamento físico. Entregamos em todo território nacional. Pode ser personalizado. Vem com envelope .Pedido mínimo: 10 Un'
         , Categoria: 1
     },
@@ -96,8 +87,8 @@ const convites = [
         Titulo: 'Convite de chá de bebê/Revelação',
         Texto: 'R$ 2,49 Un.',
         Img: { Chabebe3 },
-        NomeImg: 'Chabebe1',
-        Id: 9,
+        NomeImg: 'Chabebe3',
+        Id: 8,
         Descricao: 'Convite de chá de bebê/Revelação. Entregamos em todo território nacional. Pode ser personalizado. Pedido mínimo: 10 Un'
         , Categoria: 4
     },
@@ -105,8 +96,8 @@ const convites = [
         Titulo: 'Convite de chá de bebê/Revelação',
         Texto: 'R$ 2,49 Un.',
         Img: { Chabebe2 },
-        NomeImg: 'Chabebe1',
-        Id: 10,
+        NomeImg: 'Chabebe2',
+        Id: 9,
         Descricao: 'Convite de chá de bebê/Revelação. Entregamos em todo território nacional. Pode ser personalizado. Pedido mínimo: 10 Un'
         , Categoria: 4
     },
@@ -123,7 +114,7 @@ const convites = [
         Titulo: 'Convite de aniversario infatil',
         Texto: 'R$ 2,29 Un.',
         Img: { Aniversario1 },
-        NomeImg: 'Princesa1',
+        NomeImg: 'Aniversario1',
         Id: 11,
         Descricao: 'Convite aniversário infantil do sonic . Entregamos em todo território nacional. Pode ser personalizado. Pedido mínimo: 10 Un'
         , Categoria: 2
