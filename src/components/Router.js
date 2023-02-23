@@ -4,6 +4,8 @@ import Index from '../screens/index'
 import { Convite } from "../screens/convite";
 
 import { Layout } from "./Layout";
+import { NotFound } from "../screens/404";
+import { NovoCard } from "../screens/NovoCard";
 
 const rota = createHashRouter([
     {
@@ -13,6 +15,14 @@ const rota = createHashRouter([
     {
         path: "/Convite",
         element: <Layout><Convite /></Layout>,
+    },
+    {
+        path: "*",
+        element: <Layout><NotFound /></Layout>,
+    },
+    {
+        path: "/NovoCard",
+        element: <Layout><NovoCard /></Layout>,
     },
 ]);
 

@@ -8,14 +8,18 @@ import Card from '../components/Card'
 import { Header } from '../components/Header'
 import { Col } from "react-bootstrap";
 
+import { BuscarTodos,Adicionar } from "../bd/api";
+
 export default Index => {
     const [valorFiltro, setValorFiltro] = useState(0);
     const [ehFiltro, setEhFiltro] = useState(false);
 
     function onChangeFiltro(e)
     {
-        setEhFiltro(true);
-        setValorFiltro(e.target.value);
+        Adicionar();
+        // BuscarTodos();
+        // setEhFiltro(true);
+        // setValorFiltro(e.target.value);
     }
 
     return (
