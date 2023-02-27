@@ -21,7 +21,7 @@ const rota = createHashRouter([
         element: <Layout><NotFound /></Layout>,
     },
     {
-        path: "/NovoCard",
+        path: "/adm",
         element: <Layout><NovoCard /></Layout>,
     },
 ]);

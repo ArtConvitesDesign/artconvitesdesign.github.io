@@ -8,7 +8,9 @@ import '../Styles/Convite.css'
 export const Convite = () => {
 
     const Id = document.location.hash.substring(18)
+    
     const card = CardConfig().find(x => x.Id === parseInt(Id));
+    if(card === null || card === undefined) {window.location.href = '#/*'}
 
 
     setTimeout(()=>{

@@ -25,11 +25,13 @@ const BuscarTodos = async () =>
 }  
 
 const Adicionar = async (data) => {
+    debugger
     var array = await BuscarTodos();
     data.id = array.length + 1;
     const db = getFirestore(app);
     array.push(data);
     await updateDoc(doc(db,'Convites',idBd), {convites: array});
+    alert('Adicionado com sucesso!')
 }
 
 export {BuscarTodos,Adicionar};

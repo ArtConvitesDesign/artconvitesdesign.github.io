@@ -4,7 +4,7 @@ import { Container } from "react-bootstrap";
 export const AdicionarCard = (props) => {
     const container = { display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' };
     const borda = { borderTop: '1px solid #f2f2f2' };
-    const {form,onChange} = props;
+    const {add,form,onChange,onChangeFile} = props;
     
     return (
         <Container>
@@ -18,19 +18,19 @@ export const AdicionarCard = (props) => {
                     <div style={borda}>
                         <div>
                             <span>Carregar Imagem</span>
-                            <input type='file' className="form-control" />
+                            <input onChange={onChangeFile} type='file' className="form-control" />
                         </div>
                         <div>
                             <span>Título</span>
-                            <input type='text' name="Titulo" className="form-control" />
+                            <input type='text' onChange={e=> onChange(e)} value={form.Titulo} name="Titulo" className="form-control" />
                         </div>
                         <div>
                             <span>Valor</span>
-                            <input type='text' name="Texto" className="form-control" />
+                            <input type='text' onChange={onChange} value={form.Texto} name="Texto" className="form-control" />
                         </div>
                         <div>
                             <span>Categoria</span>
-                            <select className="form-control">
+                            <select className="form-control" name="Categoria" onChange={onChange} value={form.Categoria} >
                                 <option selected value={0}>TODOS</option>
                                 <option value={1}>CASAMENTO</option>
                                 <option value={2}>ANIVERSÁRIO</option>
@@ -40,10 +40,10 @@ export const AdicionarCard = (props) => {
                         </div>
                         <div>
                             <span>Descrição</span>
-                            <textarea className="form-control" style={{ height: '200px', resize: 'none' }} maxLength={200} />
+                            <textarea onChange={onChange} value={form.Descricao} name='Descricao' className="form-control" style={{ height: '200px', resize: 'none' }} maxLength={200} />
                         </div>
                         <div style={borda}>
-                            <button className="btn btn-primary" style={{ width: '100%' }}>Cadastrar</button>
+                            <button className="btn btn-primary" onClick={add} style={{ width: '100%' }}>Cadastrar</button>
                             <button className="btn btn-danger" onClick={() => window.history.back()} style={{ width: '100%' }}>Cancelar</button>
                         </div>
                     </div>
